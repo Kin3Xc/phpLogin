@@ -1,0 +1,161 @@
+body{
+	background: #FCFCFC;
+	font-family: Verdana, Arial Times;
+	font-size: 14px;
+
+}
+
+p,h1,h2,form,button{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#contenido{
+	border: solid 2px #b7ddf2;
+	background: #ebf4fb;
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+	padding: 1px;
+	border-radius: 20px;
+}
+
+#contenido h1{
+	padding: 0 0 0 140px;
+	margin: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #FC8506;
+}
+
+img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	padding: 0;
+	border-radius: 10px;
+}
+
+footer{
+	font-size: 10px;
+	text-align: center;
+	color: #FFB451;
+}
+
+footer a{
+	color: #FFB451;
+}
+
+.spacer{
+	clear: both;
+	height: 1px;
+}
+
+/*  Formulario */
+.myform{
+	margin: 0px auto;
+	width: 400px;
+	padding: 14px;
+	margin: 80px auto;
+	border-radius: 20px;
+}
+
+#login{
+	border: solid 2px #b7ddf2;
+	background: #ebf4fb;
+}
+
+#login h1{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #FC8506;
+}
+
+#login p{
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #b7ddf2;
+	padding-bottom: 10px;
+}
+
+#login label{
+	display: block;
+	font-size: 12px;	
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+	color: #FC8506;
+}
+
+#login .small{
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
+}
+
+#login input{
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+#login select{
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+
+#login textarea{
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+#login button{
+	clear: both;
+	margin-left: 150px;
+	width: 80px;
+	height: 31px;
+	/*background: #666666 url()*/
+	background: #FC8506;
+	text-align: center;
+	line-height: 31px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#login #cancel{
+	clear: both;
+	margin-left: 10px;
+	width: 80px;
+	height: 31px;
+	/*background: #666666 url()*/
+	background: #FC8506;
+	text-align: center;
+	line-height: 31px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
